@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_api/node_modules
+/poo2_avd2/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/node_api/build
+/poo2_avd2/build
+
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/poo2_avd2/npm-debug.log*
+/poo2_avd2/yarn-debug.log*
+/poo2_avd2/yarn-error.log*
+
+/node_api/npm-debug.log*
+/node_api/yarn-debug.log*
+/node_api/yarn-error.log*
